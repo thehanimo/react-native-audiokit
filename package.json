@@ -1,0 +1,47 @@
+{
+  "name": "@thehanimo/react-native-audiokit",
+  "title": "React Native AudioKit",
+  "version": "1.0.0",
+  "description": "A react-native wrapper for AudioKit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thehanimo/react-native-audiokit.git",
+    "baseUrl": "https://github.com/thehanimo/react-native-audiokit"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-audio",
+    "react-native-audio-trimmer",
+    "react-native-audio-ios",
+    "react-native-audiokit",
+    "audio",
+    "audiokit",
+    "audiokit-ios"
+  ],
+  "author": {
+    "name": "Hani Mohammed",
+    "email": "thehanimo@gmail.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/thehanimo/react-native-audiokit/issues"
+  },
+  "homepage": "https://github.com/thehanimo/react-native-audiokit#readme",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.59.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.59.9"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
