@@ -17,10 +17,11 @@ class RNAudioKit: NSObject {
     resolve: @escaping RCTPromiseResolveBlock, rejecter reject: @escaping RCTPromiseRejectBlock) -> Void {
     do {
       let akAudioFile = try AKAudioFile(readFileName: file, baseDir: .documents)
+        AKSettings.sampleRate = akAudioFile.sampleRate
       try AKAudioFile(forReading: akAudioFile.avAsset.url).extractAsynchronously(fromSample: Int64(Int(truncating: start) * akAudioFile.sampleRate), toSample: Int64(Int(truncating: end) * akAudioFile.sampleRate), baseDir: .temp, name: akAudioFile.fileName){exportedFile, error in
         if error == nil {
           print("Export succeeded \(String(describing: exportedFile))")
-          exportedFile?.exportAsynchronously(name: (exportedFile?.fileName ?? "exported") + ".wav", baseDir: .documents, exportFormat: .wav){convertedFile,error in
+            exportedFile?.exportAsynchronously(name: (exportedFile?.fileName ?? "exported") + ".wav", baseDir: .documents, exportFormat: .wav, fromSample: 0, toSample: Int64(Int(Int(truncating: end) - Int(truncating: start)) * akAudioFile.sampleRate)){convertedFile,error in
             if error == nil {
               print("Export succeeded")
               resolve(convertedFile?.fileNamePlusExtension)
