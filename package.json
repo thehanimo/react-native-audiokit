@@ -1,8 +1,7 @@
 {
   "name": "@thehanimo/react-native-audiokit",
-  "title": "React Native AudioKit",
-  "version": "1.0.2",
-  "description": "A react-native wrapper for AudioKit",
+  "version": "1.0.4",
+  "description": "Exposes AudioKit for iOS to React Native.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,13 +13,12 @@
   },
   "keywords": [
     "react-native",
-    "react-native-audio",
-    "react-native-audio-trimmer",
-    "react-native-audio-ios",
-    "react-native-audiokit",
-    "audio",
     "audiokit",
-    "audiokit-ios"
+    "react-native-audio",
+    "trimmer",
+    "audio-trimmer",
+    "ios",
+    "react-native-audiokit"
   ],
   "author": {
     "name": "Hani Mohammed",

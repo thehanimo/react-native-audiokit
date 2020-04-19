@@ -11,16 +11,14 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = "https://github.com/thehanimo/react-native-audiokit"
   s.license      = "MIT"
-  s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license    = { :type => "MIT", :file => "LICENSE" }
   s.authors      = { "Hani Mohammed" => "thehanimo@gmail.com" }
   s.platforms    = { :ios => "9.0" }
   s.source       = { :git => "https://github.com/thehanimo/react-native-audiokit.git", :tag => "#{s.version}" }
 
-  s.source_files = "ios/**/*.{h,m,swift}"
+  s.source_files = "ios/**/*.{h,m,swift,hpp}"
   s.requires_arc = true
 
   s.dependency "React"
-  # ...
-  # s.dependency "..."
 end
 
