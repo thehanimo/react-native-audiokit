@@ -6,20 +6,17 @@ Pod::Spec.new do |s|
   s.name         = "react-native-audiokit"
   s.version      = package["version"]
   s.summary      = package["description"]
-  s.description  = <<-DESC
-                  react-native-audiokit
-                   DESC
-  s.homepage     = "https://github.com/thehanimo/react-native-audiokit"
-  s.license      = "MIT"
-  s.license    = { :type => "MIT", :file => "LICENSE" }
-  s.authors      = { "Hani Mohammed" => "thehanimo@gmail.com" }
-  s.platforms    = { :ios => "9.0" }
+  s.homepage     = package["homepage"]
+  s.license      = package["license"]
+  s.authors      = package["author"]
+
+  s.platforms    = { :ios => "10.0" }
   s.source       = { :git => "https://github.com/thehanimo/react-native-audiokit.git", :tag => "#{s.version}" }
 
-  s.source_files = "ios/**/*.{h,m,swift}"
-  s.requires_arc = true
+  
+  s.source_files = "ios/**/*.{h,m,mm,swift}"
+  
 
-  s.dependency "React"
+  s.dependency "React-Core"
   s.dependency "AudioKit/Core"
 end
-

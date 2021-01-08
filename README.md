@@ -5,9 +5,9 @@
 [![NPM Version](https://img.shields.io/npm/v/@thehanimo/react-native-audiokit.svg?style=flat-square)](https://www.npmjs.com/package/@thehanimo/react-native-audiokit)
 [![iOS Only](https://img.shields.io/badge/‎iOS%20Only--green?logo=apple&style=social)](https://www.npmjs.com/package/@thehanimo/react-native-audiokit)
 
-This package simply wraps up the [**AudioKit**](https://github.com/AudioKit/AudioKit) iOS package. Made this as I couldn't find any proper react-native audio trimming or processing module. Right now, this package only supports trimming audio files. However with AudioKit, the possibilities are endless. [Take a look here!](http://audiokit.io/)
+This package simply wraps up the [**AudioKit**](https://github.com/AudioKit/AudioKit) iOS package. Made this as we couldn't find any proper react-native audio trimming or processing module. Right now, this package only supports trimming audio files. However with AudioKit, the possibilities are endless. [Take a look here!](http://audiokit.io/)
 
-In case you need a new feature added to this project, raise an issue or reach out to me at [thehanimo@gmail.com](mailto:thehanimo@gmail.com)
+In case you need a new feature added to this project, raise an issue or reach out to us at [thehanimo@gmail.com](mailto:thehanimo@gmail.com)
 
 <p align="center">
    <a href="https://nodestory.com" target="_blank">
