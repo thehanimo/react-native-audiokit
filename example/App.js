@@ -2,7 +2,7 @@ import * as React from 'react';
 import {TouchableOpacity} from 'react-native';
 
 import {StyleSheet, View, Text, Alert} from 'react-native';
-import RNAudioKit from 'react-native-audiokit';
+import RNAudioKit from '@thehanimo/react-native-audiokit';
 import DocumentPicker from 'react-native-document-picker';
 import Share from 'react-native-share';
 import MultiSlider from '@ptomasroos/react-native-multi-slider';

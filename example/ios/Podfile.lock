@@ -237,7 +237,7 @@ PODS:
     - React-cxxreact (= 0.63.4)
     - React-jsi (= 0.63.4)
   - React-jsinspector (0.63.4)
-  - react-native-audiokit (0.1.0):
+  - react-native-audiokit (2.0.4):
     - AudioKit/Core
     - React-Core
   - react-native-document-picker (4.2.0):
@@ -469,7 +469,7 @@ SPEC CHECKSUMS:
   React-jsi: a0418934cf48f25b485631deb27c64dc40fb4c31
   React-jsiexecutor: 93bd528844ad21dc07aab1c67cb10abae6df6949
   React-jsinspector: 58aef7155bc9a9683f5b60b35eccea8722a4f53a
-  react-native-audiokit: 23244acae94e2162970f6deeafc67fd1cb938ccd
+  react-native-audiokit: 267735ea740445a53f91b748bc1dd97853ed3931
   react-native-document-picker: 44ecae7103090b6789cca010f06f5205fd1cb66e
   React-RCTActionSheet: 89a0ca9f4a06c1f93c26067af074ccdce0f40336
   React-RCTAnimation: 1bde3ecc0c104c55df246eda516e0deb03c4e49b
